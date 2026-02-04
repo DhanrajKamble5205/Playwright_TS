@@ -1,0 +1,20 @@
+{
+  "Form": {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "1234567890",
+    "address": "123 Main Street"
+  },
+
+  "Preferences": {
+        "Country": "India",
+        "Colour": "White",
+        "Animal": "Lion"
+    },
+
+  "DateSelection": {
+    "year": "2025",
+    "month": "Dec",
+    "day": "20"
+  }
+}   
