@@ -14,10 +14,10 @@ test('Gui Element Test', async ({page}) => {
     const pref = userInfo.Preferences
     const date = userInfo.DateSelection;
     
-    // await guiElement.navigateToGuiElementPage(data.name, data.email, data.phone, data.address, pref.Country, pref.Colour, pref.Animal);
-    // await guiElement.selectDate1();
-    // await guiElement.selectDate2(date.year, date.month, date.day);
-    // await guiElement.selectDate3();
+    await guiElement.navigateToGuiElementPage(data.name, data.email, data.phone, data.address, pref.Country, pref.Colour, pref.Animal);
+    await guiElement.selectDate1();
+    await guiElement.selectDate2(date.year, date.month, date.day);
+    await guiElement.selectDate3();
     await guiElement.submitButton();
 
     console.log('TC01: Test Passed Successfully!!!');
