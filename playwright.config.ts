@@ -1,7 +1,7 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
-  testDir: './tests', /* Directory where the tests are located */
+  testDir: './tests_e2e', /* Directory where the tests are located */
   fullyParallel: true, /* Run tests in files in parallel */
   forbidOnly: !!process.env.CI, /* Fail the build on CI if you accidentally left test.only in the source code. */
   retries: process.env.CI ? 1: 0,  /* Retry on CI only */
